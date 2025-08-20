@@ -21,8 +21,8 @@ warnings.filterwarnings("ignore")
 np.random.seed(42); random.seed(42)
 
 # ===== 경로(필요 시 사용자 환경에 맞게) =====
-TRAIN_FILE =  r"C:\Users\system1\Downloads\open\re_data_processed\re_train_07.csv"
-TEST_GLOB  =  r"C:\Users\system1\Downloads\open\re_data_processed\re_test_processed_05\TEST_*_processed.csv"
+TRAIN_FILE =  r"C:\Users\system1\Downloads\open\re_data_processed\re_train_08.csv"
+TEST_GLOB  =  r"C:\Users\system1\Downloads\open\re_data_processed\re_test_processed_06\TEST_*_processed.csv"
 SAMPLE_SUB =  r"C:\Users\system1\Downloads\open\sample_submission.csv"
 OUT_FILE   =  r"C:\Users\system1\Downloads\open\submission_cnn_lstm_xgb_lgbm_.csv"
 
